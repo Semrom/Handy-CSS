@@ -1,0 +1,731 @@
+/**
+* Handy CSS par Romain Semler
+* http://semrom.fr/informatique/handy-css
+*
+* MIT License
+* Copyright (c) 2016 Romain Semler
+* http://semrom.fr/licences/mit.php
+* 
+* Documentation
+* http://semrom.fr/informatique/handy-css/documentation.php
+*
+* Contact - Rapport d'erreurs
+* http://semrom.fr/contact.php
+*
+* Version française 1.0.0
+*/
+
+
+/* STYLES ET DECORATIONS DE TEXTE */
+
+.souligner {
+
+	text-decoration: underline;
+}
+
+.gras {
+
+	font-weight: bold;
+}
+
+.italique {
+
+	font-style: italic;
+}
+
+
+/* ALIGNEMENT DE TEXTE */
+
+.alignerGauche {
+
+	text-align: left;
+}
+
+.alignerDroite {
+
+	text-align: right;
+}
+
+.centrer {
+
+	text-align: center;
+}
+
+.justifier {
+
+	text-align: justify;
+}
+
+
+/* ESPACEMENT DES ELEMENTS */
+
+.isoler {
+
+	margin: 40px 15px 40px 15px
+}
+
+.isoler-x2 {
+
+	margin: 80px 30px 80px 30px	
+}
+
+.isoler-x3 {
+
+	margin: 120px 45px 120px 40px	
+}
+
+.isoler-x4 {
+
+	margin: 160px 60px 160px 60px	
+}
+
+.isoler-haut {
+
+	margin-top: 40px;
+}
+
+.isoler-bas {
+
+	margin-bottom: 40px;
+}
+
+.isoler-gauche {
+
+	margin-left: 40px;
+}
+
+.isoler-droit {
+
+	margin-right: 40px;
+}
+
+.espacer {
+
+	padding: 7px;
+}
+
+.espacer-x2 {
+
+	padding: 14px;
+}
+
+.espacer-x3 {
+
+	padding: 21px;
+}
+
+.espacer-x4 {
+
+	padding: 28px;
+}
+
+
+/* DISPOSITION DES ELEMENTS */
+
+.sous-elmt {
+
+	display: block;
+}
+
+.sous-elmt-centrer {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sous-elmt-droite {
+
+	display: block;
+	margin-left: auto;
+}
+
+
+/* EN-TETES ET PIEDS DE PAGE */
+
+.en-tete {
+
+	background-color: #cdc0b0;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-bottom: 45px;
+	padding: 7px;
+	text-align: center;
+}
+
+.en-tete-bordure {
+
+	background-color: #cdc0b0;
+	border: solid 3px black;
+	font-size: 20px;
+	margin-top: 35px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.pied-page {
+
+	background-color: #cdc0b0;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.pied-page-bordure {
+
+	background-color: #cdc0b0;
+	border: solid 1px black;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.pied-page-fixe {
+
+	background-color: #cdc0b0;
+	bottom: 0px;
+	font-size: 15px;
+	height: 40px;
+	left: 0px;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.pied-page-fixe-bordure {
+
+	background-color: #cdc0b0;
+	border: solid 1px black;
+	bottom: 0px;
+	font-size: 15px;
+	height: 40px;
+	left: 0px;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* BOUTONS / LIENS */
+
+.bouton-grand {
+
+	background-color: #F5DEB3;
+	border: solid 2px black;
+	color: black;
+	font-size: 18px;
+	padding: 15px;
+	text-decoration: none;
+	width: 200px;
+}
+
+.bouton-moyen {
+
+	background-color: #F5DEB3;
+	border: solid 2px black;
+	color: black;
+	font-size: 15px;
+	padding: 12px;
+	text-decoration: none;
+	width: 100px;
+}
+
+.bouton-petit {
+
+	background-color: #F5DEB3;
+	border: solid 2px black;
+	color: black;
+	font-size: 12px;
+	padding: 10px;
+	text-decoration: none;
+	width: 50px;
+}
+
+.bouton-grand:hover {
+
+	background-color: black;
+	border: solid 2px blue;
+	color: #F5DEB3;
+	font-size: 18px;
+	padding: 15px;
+	width: 200px;
+}
+
+.bouton-moyen:hover {
+
+	background-color: black;
+	border: solid 2px blue;
+	color: #F5DEB3;
+	font-size: 15px;
+	padding: 12px;
+	text-decoration: none;
+	width: 100px;
+}
+
+.bouton-petit:hover {
+
+	background-color: black;
+	border: solid 2px blue;
+	color: #F5DEB3;
+	font-size: 12px;
+	padding: 10px;
+	text-decoration: none;
+	width: 50px;
+}
+
+.bouton-grand-arrondi {
+
+	background-color: #F5DEB3;
+	border: solid 2px black;
+	border-radius: 20px;
+	color: black;
+	font-size: 18px;
+	padding: 15px;
+	text-decoration: none;
+	width: 200px;
+}
+
+.bouton-moyen-arrondi {
+
+	background-color: #F5DEB3;
+	border: solid 2px black;
+	border-radius: 20px;
+	color: black;
+	font-size: 15px;
+	padding: 12px;
+	text-decoration: none;
+	width: 100px;
+}
+
+.bouton-petit-arrondi {
+
+	background-color: #F5DEB3;
+	border: solid 2px black;
+	border-radius: 20px;
+	color: black;
+	font-size: 12px;
+	padding: 10px;
+	text-decoration: none;
+	width: 50px;
+}
+
+.bouton-grand-arrondi:hover {
+
+	background-color: black;
+	border: solid 2px blue;
+	border-radius: 20px;
+	color: #F5DEB3;
+	font-size: 18px;
+	padding: 15px;
+	width: 200px;
+}
+
+.bouton-moyen-arrondi:hover {
+
+	background-color: black;
+	border: solid 2px blue;
+	border-radius: 20px;
+	color: #F5DEB3;
+	font-size: 15px;
+	padding: 12px;
+	text-decoration: none;
+	width: 100px;
+}
+
+.bouton-petit-arrondi:hover {
+
+	background-color: black;
+	border: solid 2px blue;
+	border-radius: 20px;
+	color: #F5DEB3;
+	font-size: 12px;
+	padding: 10px;
+	text-decoration: none;
+	width: 50px;
+}
+
+
+/* TABLEAUX */
+
+.styler-tableau {
+
+	border: solid 2px black;
+	padding: 3px;
+	text-align: center;
+}
+
+.styler-tableau th {
+
+	border: solid 2px black;
+	padding: 10px;
+}
+
+.styler-tableau td {
+
+	border: solid 2px black;
+	padding: 10px;
+}
+
+.centrer-tableau {
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.colorier-tableau thead {
+
+	background-color: #7896CF;
+}
+
+.colorier-tableau tbody {
+
+	background-color: #B3CAF5;
+}
+
+.colorier-tableau tbody tr:hover {
+
+	background-color: #F5DEB3;
+}
+
+
+/* FORMULAIRES */
+
+.styler-form {
+
+	background-color: wheat;
+	border: solid 2px black;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.styler-form input {
+
+	border: solid 2px gray;
+	border-radius: 8px;
+	display: block;
+	font-size: 16px;
+	height: 30px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	padding: 3px;
+	width: 100%;
+}
+
+.styler-form input:hover {
+
+	border: solid 2px black;
+	border-radius: 8px;
+	display: block;
+	font-size: 16px;
+	height: 30px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	padding: 3px;
+	width: 100%;
+}
+
+.styler-form textarea {
+
+	border: solid 2px gray;
+	border-radius: 8px;
+	display: block;
+	font-size: 16px;
+	height: 100px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	padding: 3px;
+	resize: vertical;
+	width: 100%;
+}
+
+.styler-form textarea:hover {
+
+	border: solid 2px black;
+	border-radius: 8px;
+	display: block;
+	font-size: 16px;
+	height: 100px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	padding: 3px;
+	resize: vertical;
+	width: 100%;
+}
+
+.styler-submit {
+
+	background-color: white;
+	color: black;
+}
+
+.styler-submit:hover {
+
+	background-color: gray;
+	border: solid 2px black;
+	color: white;
+}
+
+
+/* CADRES (UTILES POUR LES IMAGES) */
+
+.cadre-rouge {
+
+	border: solid 6px red;
+}
+
+.cadre-vert {
+
+	border: solid 6px green;
+}
+
+.cadre-bleu {
+
+	border: solid 6px blue;
+}
+
+.cadre-jaune {
+
+	border: solid 6px yellow;
+}
+
+.cadre-orange {
+
+	border: solid 6px orange;
+}
+
+.cadre-violet {
+
+	border: solid 6px #800080;
+}
+
+.cadre-rose {
+
+	border: solid 6px #FFC0CB;
+}
+
+.cadre-marron {
+
+	border: solid 6px #A52A2A;
+}
+
+.cadre-gris {
+
+	border: solid 6px gray;
+}
+
+.cadre-noir {
+
+	border: solid 6px black;
+}
+
+.cadre-blanc {
+
+	border: solid 6px white;
+}
+
+.cadre-arrondi-rouge {
+
+	border: solid 6px red;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-vert {
+
+	border: solid 6px green;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-bleu {
+
+	border: solid 6px blue;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-jaune {
+
+	border: solid 6px yellow;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-orange {
+
+	border: solid 6px orange;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-violet {
+
+	border: solid 6px #800080;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-rose {
+
+	border: solid 6px #FFC0CB;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-marron {
+
+	border: solid 6px #A52A2A;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-gris {
+
+	border: solid 6px gray;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-noir {
+
+	border: solid 6px black;
+	border-radius: 20px;
+}
+
+.cadre-arrondi-blanc {
+
+	border: solid 6px white;
+	border-radius: 20px;
+}
+
+
+/* BORDURES CLASSIQUES */
+
+.bordure {
+
+	border: solid 3px black;
+}
+
+.bordure-x2 {
+	border: solid 6px black;
+}
+
+.bordure-x3 {
+	border: solid 9px black;
+}
+
+.bordure-x4 {
+	border: solid 12px black;
+}
+
+
+/* OMBRES */
+
+.ombre-d2 {
+
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.ombre {
+
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.ombre-x2 {
+
+	box-shadow: 20px 20px 5px #888888;
+}
+
+.ombre-x3 {
+
+	box-shadow: 30px 30px 5px #888888;
+}
+
+.ombre-x4 {
+
+	box-shadow: 40px 40px 5px #888888;
+}
+
+
+/* TAILLE DES BLOCS */
+
+.reduire-bloc {
+
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+/* MENU HORIZONTAL */
+
+.menu-horizontal ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menu-horizontal li {
+
+	display: inline;
+	margin-right: 1px;
+}
+
+.menu-horizontal li a {
+
+	background-color: wheat;
+	border: 2px solid black;
+	color: black;
+	line-height: 1em;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu-horizontal li a:hover, .menu-horizontal li a:focus, .menu-horizontal li a:active {
+
+	background-color: black;
+	border: 2px solid wheat;
+	color: wheat;
+	text-decoration: none;
+}
+
+
+/* MENU VERTICAL */
+
+.menu-vertical ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+}
+
+.menu-vertical li {
+
+	display: inline;
+	margin-bottom: 1px;
+}
+
+.menu-vertical li a {
+
+	background-color: wheat;
+	border: 1px solid black;
+	color: black;
+	display: block;
+	line-height: 1em;
+	padding: 4px 0px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu-vertical li a:hover, .menu-vertical li a:focus, .menu-vertical li a:active {
+
+	background-color: black;
+	border: 1px solid wheat;
+	color: wheat;
+	text-decoration: none;
+}
+
+.centrer-menu-vertical {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
