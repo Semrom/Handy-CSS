@@ -19,7 +19,7 @@ Elle n'est pas, pour l'instant, responsive design (elle ne peut donc pas s'adapt
 
 ## Documentation
 Handy CSS possède une documentation, disponible [ici](http://semrom.fr/projets/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples et des explications sur son fonctionnement.   
-Documentation en anglais : [ici](http://semrom.fr/en/projects/handy-css/documentation.php).
+English Documentation : [here](http://semrom.fr/en/projects/handy-css/documentation.php).
 
 ## Téléchargement
 
