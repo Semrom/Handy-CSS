@@ -1,180 +1,227 @@
 /**
-* Handy CSS by Romain Semler
-* http://semrom.fr/en/computer-science/handy-css
+* Handy CSS par Romain Semler
+* http://semrom.fr/projets/handy-css
 *
 * MIT License
 * Copyright (c) 2016 Romain Semler
-* http://semrom.fr/en/licenses/mit.php
+* http://semrom.fr/licences/mit.php
 * 
 * Documentation
-* http://semrom.fr/en/computer-science/handy-css/documentation.php
+* http://semrom.fr/projets/handy-css/documentation.php
 *
-* Contact - Error report
-* http://semrom.fr/en/contact.php
+* Contact - Rapport d'erreurs
+* http://semrom.fr/contact.php
 *
-* English version 1.0.0
+* Version française 1.0.0
 */
 
 
-/* STYLES AND TEXT DECORATIONS */
+/* HTML & BODY */
 
-.underline {
+html {
+    
+    height: 100%;
+}
+
+body {
+    
+    display: table;
+    height: 100%;
+    margin : 0;
+    padding: 0;
+    width:  100%;
+}
+
+
+/* CONTENEUR BLOG */
+
+#conteneur-blog {
+
+    border: 4px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 800px;
+}
+
+
+/* STYLES ET DECORATIONS DE TEXTE */
+
+.souligner {
 
 	text-decoration: underline;
 }
 
-.bold {
+.gras {
 
 	font-weight: bold;
 }
 
-.italic {
+.italique {
 
 	font-style: italic;
 }
 
 
-/* TEXT ALIGNMENT */
+/* ALIGNEMENT DE TEXTE */
 
-.leftAlign {
+.alignerGauche {
 
 	text-align: left;
 }
 
-.rightAlign {
+.alignerDroite {
 
 	text-align: right;
 }
 
-.center {
+.centrer {
 
 	text-align: center;
 }
 
-.justify {
+.justifier {
 
 	text-align: justify;
 }
 
 
-/* SPACING ELEMENTS */
+/* FLOTTEMENT D'ELEMENTS */
 
-.isolate {
+.floatGauche {
+    
+    float: left;
+}
+
+.floatDroite {
+    
+    float: right;
+}
+
+
+/* ESPACEMENT DES ELEMENTS */
+
+.isoler {
 
 	margin: 40px 15px 40px 15px
 }
 
-.isolate-x2 {
+.isoler-x2 {
 
 	margin: 80px 30px 80px 30px	
 }
 
-.isolate-x3 {
+.isoler-x3 {
 
 	margin: 120px 45px 120px 40px	
 }
 
-.isolate-x4 {
+.isoler-x4 {
 
 	margin: 160px 60px 160px 60px	
 }
 
-.isolate-top {
+.isoler-haut {
 
 	margin-top: 40px;
 }
 
-.isolate-bottom {
+.isoler-bas {
 
 	margin-bottom: 40px;
 }
 
-.isolate-left {
+.isoler-gauche {
 
 	margin-left: 40px;
 }
 
-.isolate-right {
+.isoler-droit {
 
 	margin-right: 40px;
 }
 
-.spacing {
+.espacer {
 
 	padding: 7px;
 }
 
-.spacing-x2 {
+.espacer-x2 {
 
 	padding: 14px;
 }
 
-.spacing-x3 {
+.espacer-x3 {
 
 	padding: 21px;
 }
 
-.spacing-x4 {
+.espacer-x4 {
 
 	padding: 28px;
 }
 
 
-/* ELEMENTS DISPOSITION */
+/* METTRE UN ELEMENT SOUS UN AUTRE (CAS PARTICULIERS) */
 
-.under-elmt {
+.sous-elmt {
+    
+    clear: both;
+}
+
+.sous-elmt-block {
 
 	display: block;
 }
 
-.under-elmt-center {
+.sous-elmt-centrer {
 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.under-elmt-righte {
+.sous-elmt-droite {
 
 	display: block;
 	margin-left: auto;
 }
 
 
-/* HEADERS AND FOOTERS */
+/* EN-TETES ET PIEDS DE PAGE */
 
-.header {
+.en-tete {
 
-	background-color: #cdc0b0;
+	background-color: #DCDCDC;
 	font-size: 20px;
-	margin-top: 35px;
+	margin-top: 20px;
 	margin-bottom: 45px;
 	padding: 7px;
 	text-align: center;
 }
 
-.header-border {
+.en-tete-bordure {
 
-	background-color: #cdc0b0;
+	background-color: #DCDCDC;
 	border: solid 3px black;
 	font-size: 20px;
-	margin-top: 35px;
+	margin-top: 20px;
 	margin-bottom: 45px;
 	text-align: center;
 }
 
-.footer {
+.pied-page {
 
-	background-color: #cdc0b0;
+	background-color: #DCDCDC;
 	font-size: 15px;
 	margin-top: 10px;
 	padding: 10px;
 	text-align: center;
 }
 
-.footer-border {
+.pied-page-bordure {
 
-	background-color: #cdc0b0;
+	background-color: #DCDCDC;
 	border: solid 1px black;
 	font-size: 15px;
 	margin-top: 10px;
@@ -182,37 +229,10 @@
 	text-align: center;
 }
 
-.footer-fixed {
 
-	background-color: #cdc0b0;
-	bottom: 0px;
-	font-size: 15px;
-	height: 40px;
-	left: 0px;
-	padding: 10px;
-	position: fixed;
-	text-align: center;
-	width: 100%;
-}
+/* BOUTONS / LIENS */
 
-.footer-fixed-border {
-
-	background-color: #cdc0b0;
-	border: solid 1px black;
-	bottom: 0px;
-	font-size: 15px;
-	height: 40px;
-	left: 0px;
-	padding: 10px;
-	position: fixed;
-	text-align: center;
-	width: 100%;
-}
-
-
-/* BUTTONS / LINKS */
-
-.large-button {
+.bouton-grand {
 
 	background-color: #F5DEB3;
 	border: solid 2px black;
@@ -223,7 +243,7 @@
 	width: 200px;
 }
 
-.medium-button {
+.bouton-moyen {
 
 	background-color: #F5DEB3;
 	border: solid 2px black;
@@ -234,7 +254,7 @@
 	width: 100px;
 }
 
-.small-button {
+.bouton-petit {
 
 	background-color: #F5DEB3;
 	border: solid 2px black;
@@ -245,7 +265,7 @@
 	width: 50px;
 }
 
-.large-button:hover {
+.bouton-grand:hover {
 
 	background-color: black;
 	border: solid 2px blue;
@@ -255,7 +275,7 @@
 	width: 200px;
 }
 
-.medium-button:hover {
+.bouton-moyen:hover {
 
 	background-color: black;
 	border: solid 2px blue;
@@ -266,7 +286,7 @@
 	width: 100px;
 }
 
-.small-button:hover {
+.bouton-petit:hover {
 
 	background-color: black;
 	border: solid 2px blue;
@@ -277,7 +297,7 @@
 	width: 50px;
 }
 
-.large-button-round {
+.bouton-grand-arrondi {
 
 	background-color: #F5DEB3;
 	border: solid 2px black;
@@ -289,7 +309,7 @@
 	width: 200px;
 }
 
-.medium-button-round {
+.bouton-moyen-arrondi {
 
 	background-color: #F5DEB3;
 	border: solid 2px black;
@@ -301,7 +321,7 @@
 	width: 100px;
 }
 
-.small-button-round {
+.bouton-petit-arrondi {
 
 	background-color: #F5DEB3;
 	border: solid 2px black;
@@ -313,7 +333,7 @@
 	width: 50px;
 }
 
-.large-button-round:hover {
+.bouton-grand-arrondi:hover {
 
 	background-color: black;
 	border: solid 2px blue;
@@ -324,7 +344,7 @@
 	width: 200px;
 }
 
-.medium-button-round:hover {
+.bouton-moyen-arrondi:hover {
 
 	background-color: black;
 	border: solid 2px blue;
@@ -336,7 +356,7 @@
 	width: 100px;
 }
 
-.small-button-round:hover {
+.bouton-petit-arrondi:hover {
 
 	background-color: black;
 	border: solid 2px blue;
@@ -349,52 +369,52 @@
 }
 
 
-/* TABLE */
+/* TABLEAUX */
 
-.stylize-table {
+.styler-tableau {
 
 	border: solid 2px black;
 	padding: 3px;
 	text-align: center;
 }
 
-.stylize-table th {
+.styler-tableau th {
 
 	border: solid 2px black;
 	padding: 10px;
 }
 
-.stylize-table td {
+.styler-tableau td {
 
 	border: solid 2px black;
 	padding: 10px;
 }
 
-.center-table {
+.centrer-tableau {
 
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.coloring-table thead {
+.colorier-tableau thead {
 
 	background-color: #7896CF;
 }
 
-.coloring-table tbody {
+.colorier-tableau tbody {
 
 	background-color: #B3CAF5;
 }
 
-.coloring-table tbody tr:hover {
+.colorier-tableau tbody tr:hover {
 
 	background-color: #F5DEB3;
 }
 
 
-/* FORM */
+/* FORMULAIRES */
 
-.stylize-form {
+.styler-form {
 
 	background-color: wheat;
 	border: solid 2px black;
@@ -402,7 +422,7 @@
 	padding: 20px;
 }
 
-.stylize-form input {
+.styler-form input {
 
 	border: solid 2px gray;
 	border-radius: 8px;
@@ -415,7 +435,7 @@
 	width: 100%;
 }
 
-.stylize-form input:hover {
+.styler-form input:hover {
 
 	border: solid 2px black;
 	border-radius: 8px;
@@ -428,7 +448,7 @@
 	width: 100%;
 }
 
-.stylize-form textarea {
+.styler-form textarea {
 
 	border: solid 2px gray;
 	border-radius: 8px;
@@ -442,7 +462,7 @@
 	width: 100%;
 }
 
-.stylize-form textarea:hover {
+.styler-form textarea:hover {
 
 	border: solid 2px black;
 	border-radius: 8px;
@@ -456,204 +476,236 @@
 	width: 100%;
 }
 
-.stylize-submit {
+.styler-submit {
 
 	background-color: white;
 	color: black;
 }
 
-.stylize-submit:hover {
+.styler-submit:hover {
 
 	background-color: gray;
 	border: solid 2px black;
 	color: white;
 }
 
+.mini-form {
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/* FRAME (USEFUL FOR PICTURES) */
 
-.frame-red {
+/* IMAGES */
+
+.figure-gauche {
+    
+    float: left;
+    font-style: italic;
+    text-align: center;
+    width: 30%;
+}
+
+.figure-droit {
+    
+    float: right;
+    font-style: italic;
+    text-align: center;
+    width: 30%;
+}
+
+.legende {
+    
+    font-style: italic;
+    margin-top:  2px;
+}
+
+
+/* CADRES (UTILES POUR LES IMAGES) */
+
+.cadre-rouge {
 
 	border: solid 6px red;
 }
 
-.frame-green {
+.cadre-vert {
 
 	border: solid 6px green;
 }
 
-.frame-blue {
+.cadre-bleu {
 
 	border: solid 6px blue;
 }
 
-.frame-yellow {
+.cadre-jaune {
 
 	border: solid 6px yellow;
 }
 
-.frame-orange {
+.cadre-orange {
 
 	border: solid 6px orange;
 }
 
-.frame-purple {
+.cadre-violet {
 
 	border: solid 6px #800080;
 }
 
-.frame-pink {
+.cadre-rose {
 
 	border: solid 6px #FFC0CB;
 }
 
-.frame-brown {
+.cadre-marron {
 
 	border: solid 6px #A52A2A;
 }
 
-.frame-gray {
+.cadre-gris {
 
 	border: solid 6px gray;
 }
 
-.frame-black {
+.cadre-noir {
 
 	border: solid 6px black;
 }
 
-.frame-white {
+.cadre-blanc {
 
 	border: solid 6px white;
 }
 
-.frame-round-red {
+.cadre-arrondi-rouge {
 
 	border: solid 6px red;
 	border-radius: 20px;
 }
 
-.frame-round-green {
+.cadre-arrondi-vert {
 
 	border: solid 6px green;
 	border-radius: 20px;
 }
 
-.frame-round-blue {
+.cadre-arrondi-bleu {
 
 	border: solid 6px blue;
 	border-radius: 20px;
 }
 
-.frame-round-yellow {
+.cadre-arrondi-jaune {
 
 	border: solid 6px yellow;
 	border-radius: 20px;
 }
 
-.frame-round-orange {
+.cadre-arrondi-orange {
 
 	border: solid 6px orange;
 	border-radius: 20px;
 }
 
-.frame-round-purple {
+.cadre-arrondi-violet {
 
 	border: solid 6px #800080;
 	border-radius: 20px;
 }
 
-.frame-round-pink {
+.cadre-arrondi-rose {
 
 	border: solid 6px #FFC0CB;
 	border-radius: 20px;
 }
 
-.frame-round-brown {
+.cadre-arrondi-marron {
 
 	border: solid 6px #A52A2A;
 	border-radius: 20px;
 }
 
-.frame-round-gray {
+.cadre-arrondi-gris {
 
 	border: solid 6px gray;
 	border-radius: 20px;
 }
 
-.frame-round-black {
+.cadre-arrondi-noir {
 
 	border: solid 6px black;
 	border-radius: 20px;
 }
 
-.frame-round-white {
+.cadre-arrondi-blanc {
 
 	border: solid 6px white;
 	border-radius: 20px;
 }
 
 
-/* CLASSIC BORDERS */
+/* BORDURES CLASSIQUES */
 
-.border {
+.bordure {
 
 	border: solid 3px black;
 }
 
-.border-x2 {
+.bordure-x2 {
 	border: solid 6px black;
 }
 
-.border-x3 {
+.bordure-x3 {
 	border: solid 9px black;
 }
 
-.border-x4 {
+.bordure-x4 {
 	border: solid 12px black;
 }
 
 
-/* SHADOWS */
+/* OMBRES */
 
-.shadow-d2 {
+.ombre-d2 {
 
 	box-shadow: 5px 5px 5px #888888;
 }
 
-.shadow {
+.ombre {
 
 	box-shadow: 10px 10px 5px #888888;
 }
 
-.shadow-x2 {
+.ombre-x2 {
 
 	box-shadow: 20px 20px 5px #888888;
 }
 
-.shadow-x3 {
+.ombre-x3 {
 
 	box-shadow: 30px 30px 5px #888888;
 }
 
-.shadow-x4 {
+.ombre-x4 {
 
 	box-shadow: 40px 40px 5px #888888;
 }
 
 
-/* BLOCKS SIZE */
+/* TAILLE DES BLOCS */
 
-.reduce-block {
+.reduire-bloc {
 
 	margin-left: 25%;
 	margin-right: 25%;
 }
 
 
-/* HORIZONTAL MENU */
+/* MENU HORIZONTAL */
 
-.horizontal-menu ul {
+.menu-horizontal ul {
 
 	list-style: none;
 	margin: 0;
@@ -661,15 +713,15 @@
 	text-align: center;
 }
 
-.horizontal-menu li {
+.menu-horizontal li {
 
 	display: inline;
 	margin-right: 1px;
 }
 
-.horizontal-menu li a {
+.menu-horizontal li a {
 
-	background-color: wheat;
+	background-color: #F5DEB3;
 	border: 2px solid black;
 	color: black;
 	line-height: 1em;
@@ -678,18 +730,18 @@
 	text-decoration: none;
 }
 
-.horizontal-menu li a:hover, .horizontal-menu li a:focus, .horizontal-menu li a:active {
+.menu-horizontal li a:hover, .menu-horizontal li a:focus, .menu-horizontal li a:active {
 
 	background-color: black;
-	border: 2px solid wheat;
-	color: wheat;
+	border: 2px solid #F5DEB3;
+	color: #F5DEB3;
 	text-decoration: none;
 }
 
 
-/* VERTICAL MENU */
+/* MENU VERTICAL */
 
-.vertical-menu ul {
+.menu-vertical ul {
 
 	list-style: none;
 	margin: 0;
@@ -697,15 +749,15 @@
 	width: 200px;
 }
 
-.vertical-menu li {
+.menu-vertical li {
 
 	display: inline;
 	margin-bottom: 1px;
 }
 
-.vertical-menu li a {
+.menu-vertical li a {
 
-	background-color: wheat;
+	background-color: #F5DEB3;
 	border: 1px solid black;
 	color: black;
 	display: block;
@@ -715,15 +767,15 @@
 	text-decoration: none;
 }
 
-.vertical-menu li a:hover, .vertical-menu li a:focus, .vertical-menu li a:active {
+.menu-vertical li a:hover, .menu-vertical li a:focus, .menu-vertical li a:active {
 
 	background-color: black;
-	border: 1px solid wheat;
-	color: wheat;
+	border: 1px solid #F5DEB3;
+	color: #F5DEB3;
 	text-decoration: none;
 }
 
-.center-vertical-menu {
+.centrer-menu-vertical {
 
 	margin-left: auto;
 	margin-right: auto;
