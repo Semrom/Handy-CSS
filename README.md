@@ -18,7 +18,7 @@ Ainsi, cette feuille CSS permet de styler très basiquement, dans sa version 1.0
 Elle n'est pas, pour l'instant, responsive design (elle ne peut donc pas s'adapter sur d'autres formats tels que les téléphones, tablettes...).
 
 ## Documentation
-Handy CSS possède une documentation, disponible [ici](http://semrom.fr/projets/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples de rendy et des explications sur son fonctionnement.   
+Handy CSS possède une documentation, disponible [ici](http://semrom.fr/projets/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples de rendu et des explications sur son fonctionnement.   
 English Documentation : [here](http://semrom.fr/en/projects/handy-css/documentation.php).
 
 ## Téléchargement
