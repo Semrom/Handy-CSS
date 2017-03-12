@@ -26,7 +26,7 @@ English Documentation : [here](http://semrom.fr/en/projects/handy-css/documentat
 * Téléchargez au format zip la version française 1.0.0
 * Download English Version 1.0.0 (ZIP Format)
 
-## Liens
+## Liens/Links
 
 Page du projet :   
 http://semrom.fr/projets/handy-css   
