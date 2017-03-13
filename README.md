@@ -24,8 +24,8 @@ English Documentation : [here](http://semrom.fr/en/projects/handy-css/documentat
 
 ## Téléchargement/Download
 
-* Téléchargez au format zip la version française 1.0.0
-* Download English Version 1.0.0 (ZIP Format)
+* [Téléchargez au format zip la version française 1.0.0](http://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_FR.zip)
+* [Download English Version 1.0.0 (ZIP Format)](http://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_EN.zip)
 
 ## Liens/Links
 
