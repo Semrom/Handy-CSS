@@ -30,16 +30,16 @@ English Documentation : [here](http://semrom.fr/en/projects/handy-css/documentat
 ## Liens/Links
 
 Page du projet :   
-http://semrom.fr/projets/handy-css   
+https://semrom.fr/projets/handy-css   
 
 Project's page :   
-http://semrom.fr/en/projects/handy-css
+https://semrom.fr/en/projects/handy-css
 
 Contact / Rapport d'erreurs :  
-http://semrom.fr/contact.php  
+https://semrom.fr/contact.php  
 
 Contact / Errors report :   
-http://semrom.fr/en/contact.php
+https://semrom.fr/en/contact.php
 
 Romain Semler ©2017
 
