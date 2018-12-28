@@ -1,7 +1,7 @@
 # Handy CSS
 
 ## Qu'est-ce que c'est ?
-Handy CSS est un projet personnel que j'ai réalisé dans le but d'offir, à des personnes débutantes dans le développement web, des facilités dans la manière de styler et de dessiner leurs pages web HTML.
+Handy CSS est un projet personnel que j'ai réalisé dans le but d'offir, à des personnes débutantes dans le développement web, des facilités dans la manière de styler et de décorer leurs pages web HTML.
 
 Plus précisément, Handy CSS est une feuille de style en [CSS 3](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade#CSS3) (validée par les normes du [W3C](https://www.w3.org/)), contenant plus d'une centaine de règles, pour réaliser des opérations de style basiques sur les pages HTML.
 
