@@ -20,26 +20,26 @@ Elle n'est pas, pour l'instant, responsive design (elle ne peut donc pas s'adapt
 ## Documentation
 Handy CSS possède une documentation, disponible [ici](http://semrom.fr/projets/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples de rendu et des explications sur son fonctionnement.   
 
-English Documentation : [here](http://semrom.fr/en/projects/handy-css/documentation.php).
+English Documentation : [here](https://semrom.fr/en/projects/handy-css/documentation.php).
 
 ## Téléchargement/Download
 
-* [Téléchargez au format zip la version française 1.0.0](http://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_FR.zip)
-* [Download English Version 1.0.0 (ZIP Format)](http://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_EN.zip)
+* [Téléchargez au format zip la version française 1.0.0](https://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_FR.zip)
+* [Download English Version 1.0.0 (ZIP Format)](https://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_EN.zip)
 
 ## Liens/Links
 
 Page du projet :   
-http://semrom.fr/projets/handy-css   
+https://semrom.fr/projets/handy-css   
 
 Project's page :   
-http://semrom.fr/en/projects/handy-css
+https://semrom.fr/en/projects/handy-css
 
 Contact / Rapport d'erreurs :  
-http://semrom.fr/contact.php  
+https://semrom.fr/contact.php  
 
 Contact / Errors report :   
-http://semrom.fr/en/contact.php
+https://semrom.fr/en/contact.php
 
 Romain Semler ©2017
 
