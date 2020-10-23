@@ -24,22 +24,22 @@ English Documentation : [here](https://semrom.fr/en/projects/handy-css/documenta
 
 ## Téléchargement/Download
 
-* [Téléchargez au format zip la version française 1.0.0](https://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_FR.zip)
-* [Download English Version 1.0.0 (ZIP Format)](https://semrom.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_EN.zip)
+* [Téléchargez au format zip la version française 1.0.0](https://romain-semler.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_FR.zip)
+* [Download English Version 1.0.0 (ZIP Format)](https://romain-semler.fr/download/projets/Handy-CSS/Handy-CSS_1.0.0_EN.zip)
 
 ## Liens/Links
 
 Page du projet :   
-https://semrom.fr/projets/handy-css   
+https://romain-semler.fr/projets/handy-css   
 
 Project's page :   
-https://semrom.fr/en/projects/handy-css
+https://romain-semler.fr/en/projects/handy-css
 
 Contact / Rapport d'erreurs :  
-https://semrom.fr/contact.php  
+https://romain-semler.fr/contact.php  
 
 Contact / Errors report :   
-https://semrom.fr/en/contact.php
+https://romain-semler.fr/en/contact.php
 
 Romain Semler ©2017
 
