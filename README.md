@@ -20,7 +20,7 @@ Elle n'est pas, pour l'instant, responsive design (elle ne peut donc pas s'adapt
 ## Documentation
 Handy CSS possède une documentation, disponible [ici](https://romain-semler.fr/realisations/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples de rendu et des explications sur son fonctionnement.   
 
-English Documentation : [here](https://romain-semler.fr/achivements/handy-css/documentation.php).
+English Documentation : [here](https://romain-semler.fr/achievements/handy-css/documentation.php).
 
 ## Téléchargement/Download
 
@@ -33,7 +33,7 @@ Page du projet :
 https://romain-semler.fr/realisations/handy-css   
 
 Project's page :   
-https://romain-semler.fr/en/achivements/handy-css
+https://romain-semler.fr/en/achievements/handy-css
 
 Contact / Rapport d'erreurs :  
 https://romain-semler.fr/contact.php  
