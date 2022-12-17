@@ -18,9 +18,9 @@ Ainsi, cette feuille CSS permet de styler très basiquement, dans sa version 1.0
 Elle n'est pas, pour l'instant, responsive design (elle ne peut donc pas s'adapter sur d'autres formats tels que les téléphones, tablettes...).
 
 ## Documentation
-Handy CSS possède une documentation, disponible [ici](http://semrom.fr/projets/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples de rendu et des explications sur son fonctionnement.   
+Handy CSS possède une documentation, disponible [ici](https://romain-semler.fr/realisations/handy-css/documentation.php), afin de guider les utilisateurs au travers de son utilisation. Vous y  trouverez un lexique complet des règles de style incluses dans le fichier ainsi que des exemples de rendu et des explications sur son fonctionnement.   
 
-English Documentation : [here](https://semrom.fr/en/projects/handy-css/documentation.php).
+English Documentation : [here](https://romain-semler.fr/achivements/handy-css/documentation.php).
 
 ## Téléchargement/Download
 
@@ -30,10 +30,10 @@ English Documentation : [here](https://semrom.fr/en/projects/handy-css/documenta
 ## Liens/Links
 
 Page du projet :   
-https://romain-semler.fr/projets/handy-css   
+https://romain-semler.fr/realisations/handy-css   
 
 Project's page :   
-https://romain-semler.fr/en/projects/handy-css
+https://romain-semler.fr/en/achivements/handy-css
 
 Contact / Rapport d'erreurs :  
 https://romain-semler.fr/contact.php  
